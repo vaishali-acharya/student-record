@@ -1,0 +1,144 @@
+body{
+  margin: 0;
+  text-align: center;
+  /* background-color: #834C69; */
+  background-image: linear-gradient(to right,  #70415a ,#42032C);
+ font-family: 'Roboto', sans-serif;
+
+}
+
+#container{
+  /* background-color: #6B728E; */
+  margin-top: 100px;
+}
+h1{
+  color: #E6F5FF;
+  font-family: sans-serif;
+  /* padding: 10px; */
+  font-size:3rem;
+}
+
+form{
+  /* align:center; */
+}
+
+input{
+  padding: 10px;
+  background-color: #E6F5FF;
+  /* color: white; */
+  border: none;
+  border-radius: 15px;
+
+}
+input:focus{
+  box-shadow: 0 0 5px 2px  #E6F5FF ;
+}
+
+#ad-row{
+  border: none;
+  /* background-color:#834C69; */
+  background-color:transparent ;
+  color:#E6F5FF;
+  font-size: 22px;
+}
+#ad-row:hover{
+  box-shadow: 0 0 5px 2px  #E6F5FF ;
+}
+
+
+#table-container{
+  margin-top: 100px;
+  margin-left: 400px;
+  text-align: center;
+}
+
+#table-edit{
+  width: 830px;
+  height: auto;
+  font-size: 1.2rem;
+  color: #E6F5FF;
+  text-align: center;
+  /* margin-bottom: 10px; */
+  border-bottom: 1px #E6F5FF solid;
+}
+#sp-show{
+  width: 830px;
+  height: auto;
+  /* margin-top: 100px; */
+  /* margin-right: 270px; */
+}
+
+#submit{
+  border-radius: 15px;
+  border: none;
+  width: 120px;
+  height: 40px;
+  /* font-family: serif; */
+  font-size: 1.3rem;
+  margin-right: 450px;
+  margin-bottom: 10px;
+}
+#submit:hover{
+  background-color:#42032C;
+  color: #E6F5FF;
+}
+
+/* table.html page */
+#show-t{
+  visibility: hidden;
+  margin-left: 450px;
+  background-color: #E99497;
+  width: 650px;
+  height: auto;
+  margin-top: 100px;
+  border-radius: 15px;
+}
+
+#search-bar{
+  margin-left: 1100px;
+  margin-top: 20px;
+  box-shadow: 0 0 5px 2px  #E6F5FF ;
+
+}
+#search-bar:focus{
+  border-radius: 15px 15px 0 0;
+    box-shadow: none;
+}
+
+#table-show{
+  padding-left: 10px;
+  width: 640px;
+  height: auto;
+  text-align: center;
+  font-family: sans-serif;
+  line-height: 30px;
+  font-size: 1.2rem;
+}
+#page2{
+  visibility: hidden;
+}
+#table-tit{
+  visibility: hidden;
+}
+
+.adColorG{
+  background-color: green;
+
+}
+
+.adColorY{
+  background-color: yellow;
+}
+
+.adColorR{
+  background-color: red;
+}
+#deleteC{
+  color: #6D67E4;
+}
+#s-bar{
+  background-color: #E6F5FF;
+  width: 180px;
+  margin-top: -14px;
+  margin-left: 1228px;
+}
